@@ -99,12 +99,13 @@
 		A160439C27333281006CAF24 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
-				A160439D27333281006CAF24 /* AppDelegate.swift */,
-				A160439F27333281006CAF24 /* SceneDelegate.swift */,
-				A16043A127333281006CAF24 /* ViewController.swift */,
-				A16043A327333281006CAF24 /* Main.storyboard */,
-				A16043A627333282006CAF24 /* Assets.xcassets */,
-				A16043A827333282006CAF24 /* LaunchScreen.storyboard */,
+				A16043D327333583006CAF24 /* Coordinators */,
+				A16043D227333561006CAF24 /* Network */,
+				A16043D127333559006CAF24 /* ViewModels */,
+				A16043D027333552006CAF24 /* Models */,
+				A16043CF27333547006CAF24 /* Views */,
+				A16043CE2733353D006CAF24 /* Controllers */,
+				A16043CD273334D8006CAF24 /* System Files */,
 				A16043AB27333282006CAF24 /* Info.plist */,
 			);
 			path = Restaurant;
@@ -125,6 +126,61 @@
 				A16043C027333282006CAF24 /* RestaurantUITestsLaunchTests.swift */,
 			);
 			path = RestaurantUITests;
+			sourceTree = "<group>";
+		};
+		A16043CD273334D8006CAF24 /* System Files */ = {
+			isa = PBXGroup;
+			children = (
+				A160439D27333281006CAF24 /* AppDelegate.swift */,
+				A160439F27333281006CAF24 /* SceneDelegate.swift */,
+				A16043A627333282006CAF24 /* Assets.xcassets */,
+			);
+			path = "System Files";
+			sourceTree = "<group>";
+		};
+		A16043CE2733353D006CAF24 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A16043A127333281006CAF24 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A16043CF27333547006CAF24 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A16043A827333282006CAF24 /* LaunchScreen.storyboard */,
+				A16043A327333281006CAF24 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A16043D027333552006CAF24 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A16043D127333559006CAF24 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A16043D227333561006CAF24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A16043D327333583006CAF24 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
