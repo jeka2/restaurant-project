@@ -18,6 +18,7 @@
 		A16043C127333282006CAF24 /* RestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043C027333282006CAF24 /* RestaurantUITestsLaunchTests.swift */; };
 		A16043D727333A31006CAF24 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043D627333A31006CAF24 /* Restaurant.swift */; };
 		A16043D927333A50006CAF24 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043D827333A50006CAF24 /* RestaurantViewModel.swift */; };
+		A16043DE27333E5F006CAF24 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043DD27333E5F006CAF24 /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A16043C027333282006CAF24 /* RestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A16043D627333A31006CAF24 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A16043D827333A50006CAF24 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		A16043DD27333E5F006CAF24 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,8 @@
 		A160439C27333281006CAF24 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				A16043DC27333E12006CAF24 /* Network */,
 				A16043D327333583006CAF24 /* Coordinators */,
-				A16043D227333561006CAF24 /* Network */,
 				A16043D127333559006CAF24 /* ViewModels */,
 				A16043D027333552006CAF24 /* Models */,
 				A16043CF27333547006CAF24 /* Views */,
@@ -175,18 +177,19 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		A16043D227333561006CAF24 /* Network */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Network;
-			sourceTree = "<group>";
-		};
 		A16043D327333583006CAF24 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		A16043DC27333E12006CAF24 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A16043DD27333E5F006CAF24 /* Network.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +325,7 @@
 			files = (
 				A16043D727333A31006CAF24 /* Restaurant.swift in Sources */,
 				A16043A227333281006CAF24 /* ViewController.swift in Sources */,
+				A16043DE27333E5F006CAF24 /* Network.swift in Sources */,
 				A16043D927333A50006CAF24 /* RestaurantViewModel.swift in Sources */,
 				A160439E27333281006CAF24 /* AppDelegate.swift in Sources */,
 				A16043A027333281006CAF24 /* SceneDelegate.swift in Sources */,
