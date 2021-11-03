@@ -18,6 +18,8 @@
 		A16043B527333282006CAF24 /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043B427333282006CAF24 /* RestaurantTests.swift */; };
 		A16043BF27333282006CAF24 /* RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043BE27333282006CAF24 /* RestaurantUITests.swift */; };
 		A16043C127333282006CAF24 /* RestaurantUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043C027333282006CAF24 /* RestaurantUITestsLaunchTests.swift */; };
+		A16043D727333A31006CAF24 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043D627333A31006CAF24 /* Restaurant.swift */; };
+		A16043D927333A50006CAF24 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16043D827333A50006CAF24 /* RestaurantViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		A16043BA27333282006CAF24 /* RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A16043BE27333282006CAF24 /* RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITests.swift; sourceTree = "<group>"; };
 		A16043C027333282006CAF24 /* RestaurantUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A16043D627333A31006CAF24 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A16043D827333A50006CAF24 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +168,7 @@
 		A16043D027333552006CAF24 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				A16043D627333A31006CAF24 /* Restaurant.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -171,6 +176,7 @@
 		A16043D127333559006CAF24 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				A16043D827333A50006CAF24 /* RestaurantViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -321,7 +327,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A16043D727333A31006CAF24 /* Restaurant.swift in Sources */,
 				A16043A227333281006CAF24 /* ViewController.swift in Sources */,
+				A16043D927333A50006CAF24 /* RestaurantViewModel.swift in Sources */,
 				A160439E27333281006CAF24 /* AppDelegate.swift in Sources */,
 				475F340C27333B1100F17530 /* CollectionViewCell.swift in Sources */,
 				A16043A027333281006CAF24 /* SceneDelegate.swift in Sources */,
